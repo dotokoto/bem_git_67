@@ -1,0 +1,55 @@
+.page {
+    min-width: 1100px;
+    /* мы ещё не умеем делать мобильную версию сайта, */
+    /* поэтому выше установлена минимальная ширина страницы */
+    max-width: 1600px;
+    /* выше установили ограничение по максимальной ширине */
+    margin: 0 auto;
+    /* выше для экранов больше 1600px отцентрировали весь контент */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  .header {
+    position: relative;
+    height: 680px;
+    background-image: url('../images/flag.svg');
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-left: 90px;
+    padding-top: 160px;
+  }
+  
+  .logo {
+    height: 22px;
+    width: 22px;
+    background-color: #5076FF;
+    border-radius: 100%;
+  }
+  
+  .header__logo {
+    position: absolute;
+    top: 34px;
+    left: 34px;
+  }
+  
+  .header__title {
+    margin: 0;
+    font-size: 110px;
+    line-height: 110px;
+    font-weight: 500;
+    max-width: 420px;
+  }
+  
+  .header__subtitle {
+    margin: 90px 0 0 0;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #A6A6A6;
+    max-width: 293px;
+  }
+  
+  .header__link {
+    text-decoration: none;
+    color: #5076FF;
+  }
